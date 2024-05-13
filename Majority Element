@@ -1,0 +1,22 @@
+int Solution::majorityElement(const vector<int> &A) {
+int size=A.size();
+if (size == 1)
+        return a[0];
+sort(A,A+size);
+// sort(A.begin(),A.end());
+for(int i=0;i<size;i++)
+{
+    for(int i=j+1;j<size;j++)
+{
+    if(A[j]==A[i+1])
+    {
+        // return true;
+        return true;
+        // count++;
+        // if(count>=size/2)
+        //       return a[i];
+    } else if(A[j])
+    // else { count=0;}
+     }
+return -1;
+    }
